@@ -8,3 +8,10 @@
 # 
 # if today is not Monday.
 
+require "date"
+ 
+Time.now.monday?
+p "Is today Monday? true"
+
+Time.now.monday?
+p "Is today Monday? false"
